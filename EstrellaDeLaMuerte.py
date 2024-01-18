@@ -17,5 +17,5 @@ class Estrella_de_la_muerte(Planeta):
         if self.volumen > puntos_de_vida:
             print("La estrella de la muerte no puede destruir el planeta")
         
-
+objeto_2 = Estrella_de_la_muerte(Planeta)
         
