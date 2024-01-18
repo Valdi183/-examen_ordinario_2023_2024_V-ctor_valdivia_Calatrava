@@ -3,7 +3,7 @@ Este código contiene el programa que genera una pirámide de asteriscos, según
 que pida el usuario
 """
 numero_usuario = 0
-asteriscos = []
+asteriscos = ["*"]
 
 def preguntar_usuario(numero_usuario):
     while True:
@@ -16,8 +16,9 @@ def preguntar_usuario(numero_usuario):
         return numero_usuario
 
 def generar_pirámide(numero_usuario,asteriscos):
-    for element in numero_usuario:
-        print(asteriscos)
+    while True:
+        if len(asteriscos) == numero_usuario:
+            print(asteriscos)
 
 preguntar_usuario(numero_usuario)
 generar_pirámide(numero_usuario,asteriscos)
